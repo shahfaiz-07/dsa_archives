@@ -23,8 +23,9 @@ public class LearnMap {
         hashMap.putIfAbsent("F", 7);
         System.out.println(hashMap);
 
+        // # getOrDefault(K, default) - returns 'default' if key is not present
+        
         // # get(K) - returns NULL if the key is not present
-
         // Iterating using # entrySet()
 
         for(Map.Entry<String, Integer> e : hashMap.entrySet()) {
