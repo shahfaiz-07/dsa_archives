@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/generate-all-binary-strings/
+// https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1
 import java.util.ArrayList;
 import java.util.List;
 

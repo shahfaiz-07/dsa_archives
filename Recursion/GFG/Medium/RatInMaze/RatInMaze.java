@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/
+// https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 import java.util.ArrayList;
 
 public class RatInMaze {

@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/sort-a-stack/
+// https://www.geeksforgeeks.org/problems/sort-a-stack/1
 import java.util.Stack;
 
 public class SortStack {

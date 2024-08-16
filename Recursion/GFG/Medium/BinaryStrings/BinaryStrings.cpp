@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/generate-all-binary-strings/
+// https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1
 #include<bits/stdc++.h>
 using namespace std;
 void generate(int num, string str, vector<string> &combos)

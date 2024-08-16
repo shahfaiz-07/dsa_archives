@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/
+// https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
 #include<bits/stdc++.h>
 using namespace std;
 long long toh(int n, int from, int to, int aux)

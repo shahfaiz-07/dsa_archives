@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/
+// https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
 public class TowerOfHanoi {
     public static long toh(int n, int from, int to, int aux) {
         if (n == 0) {

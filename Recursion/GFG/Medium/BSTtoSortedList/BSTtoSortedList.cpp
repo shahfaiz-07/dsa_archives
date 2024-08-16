@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/
+// https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/1
 #include <bits/stdc++.h>
 using namespace std;
 class Node

@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/
+// https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 #include<bits/stdc++.h>
 using namespace std;
 void travel(vector<vector<int>> &mat, int i, int j, vector<string> &paths, string path)

@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/problems/sort-a-stack/
+// https://www.geeksforgeeks.org/problems/sort-a-stack/1
 #include<bits/stdc++.h>
 using namespace std;
 
