@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/string-to-integer-atoi/description/
 public class Atoi {
     static long parser(String s, int i, long num, boolean isNeg) {
         if (i == s.length() || s.charAt(i) < '0' || s.charAt(i) > '9') {
