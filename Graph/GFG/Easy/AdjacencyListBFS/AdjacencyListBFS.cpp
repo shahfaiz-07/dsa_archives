@@ -7,13 +7,12 @@ vector<int> bfsOfGraph(int V, vector<int> adj[]) {
     vector<int> bfs;
     q.push(0);
     visited[0] = 1;
-    bfs.push_back(0);
     while(!q.empty()) {
         int curr = q.front();
+        bfs.push_back(curr);
         q.pop();
         for(auto neighbor: adj[curr]) {
             if(visited[neighbor] == 0) {
-                bfs.push_back(neighbor);
                 q.push(neighbor);
                 visited[neighbor] = 1;
             }
