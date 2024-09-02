@@ -1,20 +1,19 @@
 // https://leetcode.com/problems/flood-fill/description/
 public class FloodFill {
-    void dfs(int[][] image, int sr, int sc, int color, int initialColor, boolean[][] visited) {
-        if (sr < 0 || sc < 0 || sr >= image.length || sc >= image[0].length || image[sr][sc] != initialColor || visited[sr][sc]) {
+    void dfs(int[][] image, int sr, int sc, int color, int initialColor, int[][] ans) {
+        if (sr < 0 || sc < 0 || sr >= image.length || sc >= image[0].length || image[sr][sc] != initialColor || ans[sr][sc] == color) {
             return;
         }
-        visited[sr][sc] = true;
-        image[sr][sc] = color;
-        dfs(image, sr, sc - 1, color, initialColor, visited);
-        dfs(image, sr, sc + 1, color, initialColor, visited);
-        dfs(image, sr - 1, sc, color, initialColor, visited);
-        dfs(image, sr + 1, sc, color, initialColor, visited);
+        ans[sr][sc] = color;
+        dfs(image, sr, sc - 1, color, initialColor, ans);
+        dfs(image, sr, sc + 1, color, initialColor, ans);
+        dfs(image, sr - 1, sc, color, initialColor, ans);
+        dfs(image, sr + 1, sc, color, initialColor, ans);
     }
 
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        boolean[][] visited = new boolean[image.length][image[0].length];
-        dfs(image, sr, sc, color, image[sr][sc], visited);
+        int[][] ans = image.clone(); // better not to change the original array
+        dfs(image, sr, sc, color, image[sr][sc], ans);
         return image;
     }
 }
