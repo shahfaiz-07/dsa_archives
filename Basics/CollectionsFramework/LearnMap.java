@@ -23,6 +23,10 @@ public class LearnMap {
         hashMap.putIfAbsent("F", 7);
         System.out.println(hashMap);
 
+        // # compute(K, BiFunction) - update a value based on the previous value
+        hashMap.compute("G", (key, value) -> value != null ? value + 1: 1);
+        System.out.println(hashMap);
+
         // # getOrDefault(K, default) - returns 'default' if key is not present
         
         // # get(K) - returns NULL if the key is not present
