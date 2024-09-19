@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// DFS
 bool dfsSafe(vector<vector<int>> &graph, int curr, vector<bool> &visited, vector<int> &isSafe)
 {
     if (isSafe[curr])
@@ -44,6 +45,46 @@ vector<int> eventualSafeNodes(vector<vector<int>> &graph)
             ans.emplace_back(i);
         }
     }
+    return ans;
+}
+
+// BFS
+vector<int> eventualSafeNodes(vector<vector<int>> &graph)
+{
+    vector<vector<int>> revGraph(graph.size());
+    vector<int> inDegree(graph.size());
+    for (int i = 0; i < graph.size(); i++)
+    {
+        inDegree[i] = graph[i].size();
+        for (int &neighbor : graph[i])
+        {
+            revGraph[neighbor].emplace_back(i);
+        }
+    }
+    queue<int> q;
+    for (int i = 0; i < revGraph.size(); i++)
+    {
+        if (!inDegree[i])
+        {
+            q.push(i);
+        }
+    }
+    vector<int> ans;
+    while (!q.empty())
+    {
+        int curr = q.front();
+        q.pop();
+        ans.emplace_back(curr);
+        for (int &neighbor : revGraph[curr])
+        {
+            inDegree[neighbor]--;
+            if (!inDegree[neighbor])
+            {
+                q.push(neighbor);
+            }
+        }
+    }
+    sort(ans.begin(), ans.end());
     return ans;
 }
 int main(void)
