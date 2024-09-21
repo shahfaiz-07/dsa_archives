@@ -2,7 +2,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-private:
 void topoSort(vector<vector<int>> &adj, int curr, vector<bool> &visited, stack<int> &st)
 {
     visited[curr] = true;
@@ -16,13 +15,12 @@ void topoSort(vector<vector<int>> &adj, int curr, vector<bool> &visited, stack<i
     st.push(curr);
 }
 
-public:
 string findOrder(string dict[], int n, int k)
 {
     // code here
     vector<vector<int>> adj(k, vector<int>());
     vector<int> inDegree(k, 0);
-    for (int i = 0; i < n - 1; i++)
+    for(int i = 0; i < n - 1; i++)
     {
         for (int ind = 0; ind < min(dict[i].length(), dict[i + 1].length()); ind++)
         {
