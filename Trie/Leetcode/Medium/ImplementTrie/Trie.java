@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/implement-trie-prefix-tree/
 
-public class ImplementTrie {
+public class Trie {
 
     static class Node {
 
@@ -34,7 +34,7 @@ public class ImplementTrie {
     }
     Node root;
 
-    public ImplementTrie() {
+    public Trie() {
         root = new Node();
     }
 
