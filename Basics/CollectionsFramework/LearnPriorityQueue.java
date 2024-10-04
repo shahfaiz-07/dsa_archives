@@ -26,5 +26,39 @@ public class LearnPriorityQueue {
         
         rpq.poll();
         System.out.println(rpq); // Maintains a maxHeap
+
+        // STORING PAIRS IN PRIORITY QUEUE BASED ON WEIGHT OF FIRST AND THEN SECOND VALUE
+
+        PriorityQueue<Pair> pairPQ = new PriorityQueue<>((a, b) -> {
+            if(a.first == b.first) 
+                return a.second - b.second;
+            return a.first - b.first;
+        });
+
+        pairPQ.add(new Pair(5,2));
+        pairPQ.add(new Pair(2,9));
+        pairPQ.add(new Pair(6,8));
+        pairPQ.add(new Pair(2,5));
+        pairPQ.add(new Pair(2,10));
+        pairPQ.add(new Pair(10,5));
+
+        System.out.println(pairPQ.poll());
+        System.out.println(pairPQ.poll());
+        System.out.println(pairPQ.poll());
+        System.out.println(pairPQ.poll());
+        System.out.println(pairPQ.poll());
+    }
+}
+
+class Pair {
+    int first, second;
+    Pair(int first, int second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    @Override
+    public String toString() {
+        return "{"+first+", "+second+"}";
     }
 }

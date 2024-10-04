@@ -1,5 +1,6 @@
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.Objects;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
@@ -52,5 +53,50 @@ public class LearnSets {
         set3.add(65);
 
         System.out.println(set3);
+
+        // STORING PAIRS IN TREESET AND HASHSET
+        SortedSet<Pair> ss = new TreeSet<>((a, b) -> {
+            if(a.first == b.first)
+                return a.second - b.second;
+            return a.first - b.first;
+        });
+
+        ss.add(new Pair(5, 2));
+        ss.add(new Pair(2, 9));
+        ss.add(new Pair(6, 8));
+        ss.add(new Pair(2, 5));
+        ss.add(new Pair(2, 10));
+        ss.add(new Pair(10, 5));
+
+        System.out.println(ss);
+    }
+}
+class Pair {
+
+    int first, second;
+
+    Pair(int first, int second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    @Override
+    public String toString() {
+        return "{" + first + ", " + second + "}";
+    }
+
+    //For TreeSet
+    @Override
+    public boolean equals(Object obj) {
+        if(this == obj) return true;
+        if (!(obj instanceof Pair)) return false;
+        Pair pair = (Pair) obj;
+        return pair.first ==  this.first && pair.second == this.second;
+    }
+
+    // For HashSet
+    @Override
+    public int hashCode() {
+        return Objects.hash(first, second);
     }
 }
