@@ -30,6 +30,42 @@ vector<int> dijkstra(int V, vector<vector<int>> adj[], int S)
     }
     return minDist;
 }
+//USING SET
+vector<int> dijkstra(int V, vector<vector<int>> adj[], int S)
+{
+    // Code here
+    set<pair<int, int>> st;
+    vector<int> dist(V, INT_MAX);
+
+    dist[S] = 0;
+
+    st.emplace(make_pair(0, S));
+
+    while (!st.empty())
+    {
+        auto curr = *(st.begin());
+        int node = curr.second;
+        int distance = curr.first;
+
+        st.erase(curr);
+
+        for (auto neighbor : adj[node])
+        {
+            int newDist = neighbor[1] + distance;
+
+            if (dist[neighbor[0]] > newDist)
+            {
+                if (dist[neighbor[0]] != INT_MAX)
+                {
+                    st.erase(make_pair(dist[neighbor[0]], neighbor[0]));
+                }
+                dist[neighbor[0]] = newDist;
+                st.emplace(make_pair(newDist, neighbor[0]));
+            }
+        }
+    }
+    return dist;
+}
 int main(void) {
     
     return 0;
