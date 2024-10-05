@@ -1,9 +1,9 @@
+// https://leetcode.com/problems/shortest-path-in-binary-matrix/
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-// https://leetcode.com/problems/shortest-path-in-binary-matrix/
 class Tuple {
 
     int distance, x, y;
