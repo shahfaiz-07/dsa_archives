@@ -23,15 +23,13 @@ public class BellmanFord {
             }
             if(!changes) return dist;
         }
-        boolean changes = false;
-        for(ArrayList<Integer> edge: edges) {
+        // detecting -ve cycle
+        for (ArrayList<Integer> edge : edges) {
             int u = edge.get(0), v = edge.get(1), wt = edge.get(2);
-            if(dist[u] != MAGIC_NUM && dist[u] + wt < dist[v]) {
-                dist[v] = dist[u] + wt;
-                changes = true;
+            if (dist[u] != MAGIC_NUM && dist[u] + wt < dist[v]) {
+                return new int[]{-1};
             }
         }
-        if(!changes) return dist;
-        return new int[]{-1};
+        return dist;
     }
 }

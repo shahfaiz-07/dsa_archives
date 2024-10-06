@@ -25,20 +25,15 @@ vector<int> bellman_ford(int V, vector<vector<int>> &edges, int S)
             return dist;
     }
     // detecting -ve cycle
-    bool changes = false;
-
     for (vector<int> &edge : edges)
     {
         int u = edge[0], v = edge[1], wt = edge[2];
         if (dist[u] != MAGIC_NUM && dist[u] + wt < dist[v])
         {
-            changes = true;
-            dist[v] = dist[u] + wt;
+            return {-1};
         }
     }
-    if (!changes)
-        return dist;
-    return {-1};
+    return dist;
 }
 int main(void) {
     
