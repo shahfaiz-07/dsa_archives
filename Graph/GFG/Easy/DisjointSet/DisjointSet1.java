@@ -1,5 +1,4 @@
-
-
+// https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1
 public class DisjointSet1 {
     // FOR GFG
     int find(int A[], int X) {
