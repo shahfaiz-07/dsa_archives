@@ -41,7 +41,7 @@ void maxHeapify(vector<int> &arr, int index)
 
 void convertMinToMaxHeap(vector<int> &arr, int N)
 {
-    for (int i = arr.size() - 1; i >= 0; i--)
+    for (int i = arr.size()/2 - 1; i >= 0; i--)
     {
         maxHeapify(arr, i);
     }

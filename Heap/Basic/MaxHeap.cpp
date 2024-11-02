@@ -1,10 +1,10 @@
-#include <vector>
-#include <stdexcept>
+#include<bits/stdc++.h>
+using namespace std;
 
 class MaxHeap
 {
 private:
-    std::vector<int> heap;
+    vector<int> heap;
 
     // Helper methods for getting parent and child indices
     int parent(int index) { return (index - 1) / 2; }
@@ -69,7 +69,7 @@ public:
     {
         if (heap.empty())
         {
-            throw std::runtime_error("Heap is empty");
+            throw runtime_error("Heap is empty");
         }
 
         int max = heap[0];
@@ -96,7 +96,7 @@ public:
     {
         if (heap.empty())
         {
-            throw std::runtime_error("Heap is empty");
+            throw runtime_error("Heap is empty");
         }
         return heap[0];
     }
@@ -118,8 +118,8 @@ public:
     {
         for (int value : heap)
         {
-            std::cout << value << " ";
+            cout << value << " ";
         }
-        std::cout << std::endl;
+        cout << endl;
     }
 };

@@ -40,7 +40,7 @@ public class MinToMaxHeap {
 
     static void convertMinToMaxHeap(int N, int arr[]) {
         // code here
-        for (int i = arr.length - 1; i >= 0; i--) {
+        for (int i = arr.length/2 - 1; i >= 0; i--) {
             maxHeapify(arr, i);
         }
     }
