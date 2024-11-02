@@ -4,15 +4,18 @@ import java.util.PriorityQueue;
 
 public class KthLargest {
     public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> b-a);
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
-        for(int ele: nums) {
-            pq.offer(ele);
+        for (int i = 0; i < k; i++) {
+            pq.offer(nums[i]);
         }
 
-        for(int i=1; i<= k-1; i++) {
-            pq.poll();
+        for (int i = k; i < nums.length; i++) {
+            if (pq.peek() < nums[i]) {
+                pq.poll();
+                pq.offer(nums[i]);
+            }
         }
-        return pq.poll();
+        return pq.peek();
     }
 }
