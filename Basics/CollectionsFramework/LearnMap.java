@@ -27,7 +27,9 @@ public class LearnMap {
         hashMap.compute("G", (key, value) -> value != null ? value + 1: 1);
         System.out.println(hashMap);
 
-        // # computeIfAbsent(K, BiFunction(k, v)), computeIfPresent(K, BiFunction(k, v)) - run the function only if the key is present, returns the updated value
+        // # computeIfAbsent(K, BiFunction(k)), computeIfPresent(K, BiFunction(k, v)) - run the function only if the key is present, returns the updated value
+        // # computeIfAbsent has only key in the function
+        // # computeIfPresent has both key and value in the function, if the function returns null - the key is removed
 
         // # getOrDefault(K, default) - returns 'default' if key is not present
         
