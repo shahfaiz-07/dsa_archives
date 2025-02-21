@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(void) {
-    priority_queue<int> pq;
+    priority_queue<int> pq; // MAX HEAP
     pq.push(5); // {5} - O(log(n))
     pq.push(2); // {5, 2}
     pq.push(8); // {8, 5, 2}
