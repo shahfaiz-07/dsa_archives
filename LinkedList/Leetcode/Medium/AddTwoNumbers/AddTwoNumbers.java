@@ -1,6 +1,4 @@
-
-import java.util.ArrayDeque;
-import java.util.Deque;
+// https://leetcode.com/problems/add-two-numbers/
 
 class ListNode {
 
@@ -23,51 +21,43 @@ class ListNode {
 
 public class AddTwoNumbers {
 
-    // without reversing the lists - using stacks
-    static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        Deque<ListNode> st1 = new ArrayDeque<>();
-        Deque<ListNode> st2 = new ArrayDeque<>();
-        while (l1 != null) {
-            st1.push(l1);
-            l1 = l1.next;
-        }
-        while (l2 != null) {
-            st2.push(l2);
-            l2 = l2.next;
-        }
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
-        ListNode node = st1.peek();
-        while (!st1.isEmpty() && !st2.isEmpty()) {
-            node = st1.peek();
-            node.val += st2.peek().val + carry;
-            carry = (node.val) > 9 ? 1 : 0;
-            node.val = node.val % 10;
-            st1.pop();
-            st2.pop();
+        ListNode ptr1 = l1, ptrTail = null, ptr2 = l2;
+
+        while (ptr1 != null && ptr2 != null) {
+            int val = ptr1.val + ptr2.val + carry;
+            ptr1.val = val % 10;
+            carry = val / 10;
+            ptrTail = ptr1;
+            ptr1 = ptr1.next;
+            ptr2 = ptr2.next;
         }
-        if (!st1.isEmpty()) {
-            while (!st1.isEmpty()) {
-                node = st1.peek();
-                node.val += carry;
-                carry = (node.val) > 9 ? 1 : 0;
-                node.val = node.val % 10;
-                st1.pop();
-            }
-        } else {
-            while (!st2.isEmpty()) {
-                st2.peek().next = node;
-                node = st2.peek();
-                node.val += carry;
-                carry = (node.val) > 9 ? 1 : 0;
-                node.val = node.val % 10;
-                st2.pop();
-            }
+
+        while (ptr1 != null) {
+            int val = carry + ptr1.val;
+            ptr1.val = val % 10;
+            carry = val / 10;
+            ptrTail = ptr1;
+            ptr1 = ptr1.next;
         }
-        ListNode headNode = node;
-        if (carry == 1) {
-            headNode = new ListNode(1);
-            headNode.next = node;
+
+        if (ptr2 != null) {
+            ptrTail.next = ptr2;
         }
-        return headNode;
+
+        while (ptr2 != null) {
+            int val = carry + ptr2.val;
+            ptr2.val = val % 10;
+            carry = val / 10;
+            ptrTail = ptr2;
+            ptr2 = ptr2.next;
+        }
+
+        if (carry != 0) {
+            ptrTail.next = new ListNode(carry);
+        }
+
+        return l1;
     }
 }
