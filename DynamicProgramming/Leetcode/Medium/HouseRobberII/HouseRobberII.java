@@ -2,78 +2,72 @@
 import java.util.Arrays;
 
 public class HouseRobberII {
-    // TABULATION
+    // SPACE-OPTIMIZED
     public int rob(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
-        }
         if (nums.length == 1) {
             return nums[0];
         }
-        int prev1 = nums[0], prev2 = 0;
-        // start from robbing the first house not going till the end
-        for (int i = 1; i < nums.length - 1; i++) {
-            int take = nums[i] + prev2;
-            int notTake = prev1;
-            prev2 = prev1;
-            prev1 = Math.max(take, notTake);
+        // flag 1 means we rob the first house so can't rob the last, stored in dp[1]
+        int[][] dp = new int[2][2];
+        dp[0][1] = nums[1];
+        dp[1][0] = nums[0];
+        dp[1][1] = Math.max(nums[0], nums[1]);
+        for (int i = 2; i < nums.length; i++) {
+            int curr0 = Math.max(nums[i] + dp[0][0], dp[0][1]);
+            dp[0][0] = dp[0][1];
+            dp[0][1] = curr0;
+            if (i < nums.length - 1) {
+                int curr1 = Math.max(nums[i] + dp[1][0], dp[1][1]);
+                dp[1][0] = dp[1][1];
+                dp[1][1] = curr1;
+            }
         }
-        int rob1 = prev1;
-        prev2 = prev1 = 0;
-        for (int i = 1; i < nums.length; i++) {
-            int take = nums[i] + prev2;
-            int notTake = prev1;
-            prev2 = prev1;
-            prev1 = Math.max(take, notTake);
+
+        return Math.max(dp[0][1], dp[1][1]);
+    }
+    // TABULATION
+    public int rob(int[] nums) {
+        if (nums.length == 1) {
+            return nums[0];
         }
-        return Math.max(rob1, prev1);
+        // flag 1 means we rob the first house so can't rob the last, stored in dp[1]
+        int[][] dp = new int[2][nums.length];
+        dp[0][1] = nums[1];
+        dp[1][0] = nums[0];
+        dp[1][1] = Math.max(nums[0], nums[1]);
+        for (int i = 2; i < nums.length; i++) {
+            dp[0][i] = Math.max(nums[i] + dp[0][i - 2], dp[0][i - 1]);
+            if (i < nums.length - 1) {
+                dp[1][i] = Math.max(nums[i] + dp[1][i - 2], dp[1][i - 1]);
+            }
+        }
+
+        return Math.max(dp[0][nums.length - 1], dp[1][nums.length - 2]);
     }
     // MEMOIZATION
-    int jump(int[] nums, int n, boolean robbedFirst, int dpRobbed[], int dpLeft[]) {
-        if(n == 0) {
-            if(robbedFirst) return 0;
-            return nums[0];
+    int memoize(int[] nums, int i, int dp[][], int flag) {
+        // flag 1 means you robbed nth house and can't rob 0th house, you have to go till first
+        // flag 0 means you didn't rob nth house and can go till 0th house
+        if (i < flag) {
+            return 0; // for flag 1 we return 0 when i becomes 0
         }
-        if(n < 0) {
-            return 0;
+
+        if (dp[flag][i] != -1) {
+            return dp[flag][i];
         }
-        if(robbedFirst && dpRobbed[n] != -1) {
-            return dpRobbed[n];
-        } else if(dpLeft[n] != -1) {
-            return dpLeft[n];
-        }
-        int r = 0, l = 0;
-        if(n == nums.length - 1) {
-            // rob
-            r = nums[n] + jump(nums, n - 2, true, dpRobbed, dpLeft);
-            // leave
-            l = jump(nums, n - 1, false, dpRobbed, dpLeft);
-            return Math.max(l, r);
-        } else {
-            // rob
-            r = nums[n] + jump(nums, n - 2, robbedFirst, dpRobbed, dpLeft);
-            // leave
-            l = jump(nums, n - 1, robbedFirst, dpRobbed, dpLeft);
-        }
-        if(robbedFirst) {
-            dpRobbed[n] = Math.max(l, r);
-            return dpRobbed[n];
-        } else {
-            dpLeft[n] = Math.max(l, r);
-            return dpLeft[n];
-        }
+
+        dp[flag][i] = Math.max(nums[i] + memoize(nums, i - 2, dp, flag), memoize(nums, i - 1, dp, flag));
+        return dp[flag][i];
     }
-    public int rob2(int[] nums) {
-        if(nums.length == 0) {
-            return 0;
-        }
-        if(nums.length == 1) {
+
+    public int rob(int[] nums) {
+        if (nums.length == 1) {
             return nums[0];
         }
-        int dpRobbed[] = new int[nums.length];
-        int dpLeft[] = new int[nums.length];
-        Arrays.fill(dpRobbed, -1);
-        Arrays.fill(dpLeft, -1);
-        return jump(nums, nums.length - 1, false, dpRobbed, dpLeft);
+        // flag 1 means we rob the first house so can't rob the second, stored in dp[1]
+        int[][] dp = new int[2][nums.length];
+        Arrays.fill(dp[0], -1);
+        Arrays.fill(dp[1], -1);
+        return Math.max(memoize(nums, nums.length - 1, dp, 1), memoize(nums, nums.length - 2, dp, 0));
     }
 }
