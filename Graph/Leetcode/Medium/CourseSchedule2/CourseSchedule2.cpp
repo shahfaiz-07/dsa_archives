@@ -52,40 +52,38 @@ vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites)
 {
     vector<vector<int>> adj(numCourses);
     vector<int> inDegree(numCourses, 0);
-    for (auto &pair : prerequisites)
+
+    for (auto &pre : prerequisites)
     {
-        adj[pair[1]].emplace_back(pair[0]);
-        inDegree[pair[0]]++;
+        adj[pre[1]].emplace_back(pre[0]);
+        inDegree[pre[0]]++;
     }
+
     queue<int> q;
+    vector<int> ans;
     for (int i = 0; i < numCourses; i++)
     {
         if (!inDegree[i])
         {
             q.push(i);
+            ans.emplace_back(i);
         }
     }
-    vector<int> ans(numCourses);
-    int count = 0;
+
     while (!q.empty())
     {
         int curr = q.front();
         q.pop();
-        ans[count++] = curr;
         for (int &neighbor : adj[curr])
         {
             inDegree[neighbor]--;
             if (!inDegree[neighbor])
             {
                 q.push(neighbor);
+                ans.emplace_back(neighbor);
             }
         }
     }
-    if (count != numCourses)
-        return {};
-    return ans;
-}
-int main(void) {
-    
-    return 0;
+
+    return ans.size() == adj.size() ? ans : vector<int>{};
 }
