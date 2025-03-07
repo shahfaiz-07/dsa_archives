@@ -1,4 +1,4 @@
-// https://www.naukri.com/code360/problems/allocate-books_1090540
+// https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 
 import java.util.ArrayList;
 

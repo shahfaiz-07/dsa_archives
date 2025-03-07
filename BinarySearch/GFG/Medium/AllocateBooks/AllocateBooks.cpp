@@ -1,4 +1,4 @@
-// https://www.naukri.com/code360/problems/allocate-books_1090540
+// https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 #include<bits/stdc++.h>
 using namespace std;
 bool canAllocate(vector<int> &arr, int m, int mid)
