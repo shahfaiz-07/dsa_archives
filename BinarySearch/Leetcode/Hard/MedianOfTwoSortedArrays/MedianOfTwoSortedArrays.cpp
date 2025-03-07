@@ -6,7 +6,6 @@ double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2)
     // apply the logic of merge two sorted arrays
     int i1 = 0, i2 = 0;
     int ind = -1;
-    int n1 = 0, n2 = 0;
     int n = nums1.size() + nums2.size(), lastEle = 0;
     while (i1 < nums1.size() && i2 < nums2.size())
     {

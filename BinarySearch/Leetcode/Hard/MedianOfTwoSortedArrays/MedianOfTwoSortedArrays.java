@@ -4,7 +4,6 @@ public class MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int i1 = 0, i2 = 0;
         int ind = -1;
-        int n1 = 0, n2 = 0;
         int n = nums1.length + nums2.length, lastEle = 0;
         while (i1 < nums1.length && i2 < nums2.length) {
             int currEle = 0;
