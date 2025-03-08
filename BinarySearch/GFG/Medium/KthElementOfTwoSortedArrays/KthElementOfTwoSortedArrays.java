@@ -5,7 +5,6 @@ public class KthElementOfTwoSortedArrays {
         // code here
         int i1 = 0, i2 = 0;
         int ind = 0;
-        int n = a.length + b.length;
         while (i1 < a.length && i2 < b.length) {
             int currEle = 0;
             if (a[i1] < b[i2]) {

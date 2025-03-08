@@ -6,7 +6,6 @@ int kthElement(vector<int> &a, vector<int> &b, int k)
     // code here
     int i1 = 0, i2 = 0;
     int ind = 0;
-    int n = a.size() + b.size();
     while (i1 < a.size() && i2 < b.size())
     {
         int currEle = 0;
