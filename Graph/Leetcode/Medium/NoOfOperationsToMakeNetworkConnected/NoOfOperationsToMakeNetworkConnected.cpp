@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 #include<bits/stdc++.h>
-
+using namespace std;
 class DisjointSet
 {
 public:
@@ -43,7 +43,6 @@ public:
     }
 };
 
-public:
 int makeConnected(int n, vector<vector<int>> &connections)
 {
     int xtraEdges = 0;
