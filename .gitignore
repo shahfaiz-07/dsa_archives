@@ -1,4 +1,5 @@
 .vscode
 *.exe
 *.class
+*.js
 speed_function.cpp

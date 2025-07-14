@@ -1,0 +1,1086 @@
+[
+  {
+    "url": "https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1",
+    "path": "Arrays/GFG/Easy/LargestElementinArray"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/second-largest3735/1",
+    "path": "Arrays/GFG/Easy/SecondLargestElement"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1",
+    "path": "Arrays/GFG/Medium/LongestSubarrayWithSum0"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1",
+    "path": "Arrays/GFG/Medium/LongestSubarrayWithSumK"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/1",
+    "path": "Arrays/GFG/Medium/SubarraysWithGivenXOR"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1",
+    "path": "Arrays/GFG/Medium/Union"
+  },
+  {
+    "url": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/",
+    "path": "Arrays/Leetcode/Easy/CheckRotatedSortedArray"
+  },
+  {
+    "url": "https://leetcode.com/problems/determine-if-two-events-have-conflict/",
+    "path": "Arrays/Leetcode/Easy/EventConflict"
+  },
+  {
+    "url": "https://leetcode.com/problems/move-zeroes/description/",
+    "path": "Arrays/Leetcode/Easy/MoveZerosToEnd"
+  },
+  {
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
+    "path": "Arrays/Leetcode/Easy/RemoveDuplicatesfromSortedArray"
+  },
+  {
+    "url": "https://leetcode.com/problems/two-sum/",
+    "path": "Arrays/Leetcode/Easy/TwoSum"
+  },
+  {
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "path": "Arrays/Leetcode/Medium/GroupAnagrams"
+  },
+  {
+    "url": "https://leetcode.com/problems/majority-element-ii/",
+    "path": "Arrays/Leetcode/Medium/MajorityElementII"
+  },
+  {
+    "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+    "path": "Arrays/Leetcode/Medium/MinimumArrows"
+  },
+  {
+    "url": "https://leetcode.com/problems/minimum-time-difference/",
+    "path": "Arrays/Leetcode/Medium/MinTimeDiff"
+  },
+  {
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "path": "Arrays/Leetcode/Medium/NonOverlappingIntervals"
+  },
+  {
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "path": "Arrays/Leetcode/Medium/ProductofArrayExceptSelf"
+  },
+  {
+    "url": "https://leetcode.com/problems/rotate-array/",
+    "path": "Arrays/Leetcode/Medium/RotateRight"
+  },
+  {
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "path": "Arrays/Leetcode/Medium/SubarraySumEqualsK"
+  },
+  {
+    "url": "https://leetcode.com/problems/valid-sudoku/",
+    "path": "Arrays/Leetcode/Medium/ValidSudoku"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1",
+    "path": "BinarySearch/GFG/Easy/CeilTheFloor"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1",
+    "path": "BinarySearch/GFG/Easy/NthRoot"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/square-root/0",
+    "path": "BinarySearch/GFG/Easy/SquareRoot"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+    "path": "BinarySearch/GFG/Medium/AllocateBooks"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1",
+    "path": "BinarySearch/GFG/Medium/KthElementOfTwoSortedArrays"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1",
+    "path": "BinarySearch/GFG/Medium/PainterPartition"
+  },
+  {
+    "url": "https://leetcode.com/problems/kth-missing-positive-number/",
+    "path": "BinarySearch/Leetcode/Easy/KthMissingNumber"
+  },
+  {
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "path": "BinarySearch/Leetcode/Hard/MedianOfTwoSortedArrays"
+  },
+  {
+    "url": "https://leetcode.com/problems/split-array-largest-sum/",
+    "path": "BinarySearch/Leetcode/Hard/SplitArrayLargestSum"
+  },
+  {
+    "url": "https://leetcode.com/problems/search-a-2d-matrix",
+    "path": "BinarySearch/Leetcode/Medium/BinarySearchIn2D"
+  },
+  {
+    "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "path": "BinarySearch/Leetcode/Medium/BinarySearchIn2DII"
+  },
+  {
+    "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/",
+    "path": "BinarySearch/Leetcode/Medium/CapacityToShipPackages"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "path": "BinarySearch/Leetcode/Medium/FindMinInRotatedSortedArray"
+  },
+  {
+    "url": "https://leetcode.com/problems/koko-eating-bananas/",
+    "path": "BinarySearch/Leetcode/Medium/KokoEatingBananas"
+  },
+  {
+    "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    "path": "BinarySearch/Leetcode/Medium/MinDaysToMakeMBouquets"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-peak-element/",
+    "path": "BinarySearch/Leetcode/Medium/PeakIn1D"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-a-peak-element-ii/",
+    "path": "BinarySearch/Leetcode/Medium/PeakIn2D"
+  },
+  {
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "path": "BinarySearch/Leetcode/Medium/SearchInRotatedSortedArray"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "path": "BinarySearch/Leetcode/Medium/SmallestDivisor"
+  },
+  {
+    "url": "https://leetcode.com/problems/time-based-key-value-store/",
+    "path": "BinarySearch/Leetcode/Medium/TimeBasedKVStore"
+  },
+  {
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "path": "BinaryTree/Leetcode/Easy/Balanced"
+  },
+  {
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "path": "BinaryTree/Leetcode/Easy/Diameter"
+  },
+  {
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "path": "BinaryTree/Leetcode/Easy/InvertTree"
+  },
+  {
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/",
+    "path": "BinaryTree/Leetcode/Easy/MaxDepth"
+  },
+  {
+    "url": "https://leetcode.com/problems/same-tree",
+    "path": "BinaryTree/Leetcode/Easy/SameTree"
+  },
+  {
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "path": "BinaryTree/Leetcode/Easy/Subtree"
+  },
+  {
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/",
+    "path": "BinaryTree/Leetcode/Easy/Traversals/Inorder"
+  },
+  {
+    "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "path": "BinaryTree/Leetcode/Medium/CountGoodNodes"
+  },
+  {
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst",
+    "path": "BinaryTree/Leetcode/Medium/KthSmallest"
+  },
+  {
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "path": "BinaryTree/Leetcode/Medium/LCAinBST"
+  },
+  {
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "path": "BinaryTree/Leetcode/Medium/LevelOrderTraversal"
+  },
+  {
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "path": "BinaryTree/Leetcode/Medium/RightSideView"
+  },
+  {
+    "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+    "path": "BinaryTree/Leetcode/Medium/SortedListToBST"
+  },
+  {
+    "url": "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
+    "path": "BinaryTree/Leetcode/Medium/SumRootToLeafNumbers"
+  },
+  {
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "path": "BinaryTree/Leetcode/Medium/TreeFromInAndPreOrder"
+  },
+  {
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "path": "BinaryTree/Leetcode/Medium/ValidateBST"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/odd-or-even3618/1",
+    "path": "BitManipulation/GFG/Basic/OddEven"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1",
+    "path": "BitManipulation/GFG/Basic/SetRightmostUnset"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1",
+    "path": "BitManipulation/GFG/Basic/Swap"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/bit-manipulation-1666686020/1",
+    "path": "BitManipulation/GFG/Easy/BitManipulation"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1",
+    "path": "BitManipulation/GFG/Easy/KthBitIsSet"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1",
+    "path": "BitManipulation/GFG/Easy/XORLtoR"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1",
+    "path": "BitManipulation/GFG/Medium/MissingAndRepeating"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/two-numbers-with-odd-occurrences5846/1",
+    "path": "BitManipulation/GFG/Medium/OddOccurence"
+  },
+  {
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "path": "BitManipulation/LeetCode/Easy/CountingBits"
+  },
+  {
+    "url": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+    "path": "BitManipulation/LeetCode/Easy/MinBitFlips"
+  },
+  {
+    "url": "https://leetcode.com/problems/missing-number/",
+    "path": "BitManipulation/LeetCode/Easy/MissingNumber"
+  },
+  {
+    "url": "https://leetcode.com/problems/number-of-1-bits",
+    "path": "BitManipulation/LeetCode/Easy/NumberOf1Bits"
+  },
+  {
+    "url": "https://leetcode.com/problems/power-of-two/description/",
+    "path": "BitManipulation/LeetCode/Easy/PowerOf2"
+  },
+  {
+    "url": "https://leetcode.com/problems/reverse-bits/",
+    "path": "BitManipulation/LeetCode/Easy/ReverseBits"
+  },
+  {
+    "url": "https://leetcode.com/problems/single-number/",
+    "path": "BitManipulation/LeetCode/Easy/SingleNumber1"
+  },
+  {
+    "url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+    "path": "BitManipulation/LeetCode/Easy/SortBySetBits"
+  },
+  {
+    "url": "https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/",
+    "path": "BitManipulation/LeetCode/Medium/MaxAndSubArray"
+  },
+  {
+    "url": "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/",
+    "path": "BitManipulation/LeetCode/Medium/MinFlipAorB"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/",
+    "path": "BitManipulation/LeetCode/Medium/OGArrayofPrefixXOR"
+  },
+  {
+    "url": "https://leetcode.com/problems/subsets/",
+    "path": "BitManipulation/LeetCode/Medium/PowerSet"
+  },
+  {
+    "url": "https://leetcode.com/problems/single-number-ii/",
+    "path": "BitManipulation/LeetCode/Medium/SingleNumber2"
+  },
+  {
+    "url": "https://leetcode.com/problems/single-number-iii/",
+    "path": "BitManipulation/LeetCode/Medium/SingleNumber3"
+  },
+  {
+    "url": "https://leetcode.com/problems/sum-of-two-integers/",
+    "path": "BitManipulation/LeetCode/Medium/SumofTwoIntegers"
+  },
+  {
+    "url": "https://leetcode.com/problems/xor-queries-of-a-subarray/",
+    "path": "BitManipulation/LeetCode/Medium/XORQueries"
+  },
+  {
+    "url": "https://www.naukri.com/code360/problems/0-1-knapsack_920542",
+    "path": "DynamicProgramming/CodingNinjas/01Knapsack"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/geek-jump/1",
+    "path": "DynamicProgramming/GFG/Easy/FrogJump"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1",
+    "path": "DynamicProgramming/GFG/Hard"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/minimal-cost/1",
+    "path": "DynamicProgramming/GFG/Medium/FrogJump2"
+  },
+  {
+    "url": "http://www.geeksforgeeks.org/problems/introduction-to-dp/1",
+    "path": "DynamicProgramming/GFG/Medium/IntroductionToDP"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/longest-common-substring1452/1",
+    "path": "DynamicProgramming/GFG/Medium/LongestCommonSubstring"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/geeks-training/1",
+    "path": "DynamicProgramming/GFG/Medium/NinjaTraining"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
+    "path": "DynamicProgramming/GFG/Medium/RodCutting"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
+    "path": "DynamicProgramming/GFG/Medium/SubsetSum"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1",
+    "path": "DynamicProgramming/GFG/Medium/UnboundedKnapsack"
+  },
+  {
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "path": "DynamicProgramming/Leetcode/Easy/ClimbingStairs"
+  },
+  {
+    "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+    "path": "DynamicProgramming/Leetcode/Easy/MinCostClimbingStairs"
+  },
+  {
+    "url": "https://leetcode.com/problems/distinct-subsequences/",
+    "path": "DynamicProgramming/Leetcode/Hard/DistinctSubsequence"
+  },
+  {
+    "url": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+    "path": "DynamicProgramming/Leetcode/Hard/MinInsertionPalindrome"
+  },
+  {
+    "url": "https://leetcode.com/problems/shortest-common-supersequence/",
+    "path": "DynamicProgramming/Leetcode/Hard/SuperSequence"
+  },
+  {
+    "url": "https://leetcode.com/problems/wildcard-matching",
+    "path": "DynamicProgramming/Leetcode/Hard/WildcardMatching"
+  },
+  {
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+    "path": "DynamicProgramming/Leetcode/Medium/BuySellStockwithCooldown"
+  },
+  {
+    "url": "https://leetcode.com/problems/coin-change/",
+    "path": "DynamicProgramming/Leetcode/Medium/CoinChange"
+  },
+  {
+    "url": "https://leetcode.com/problems/delete-operation-for-two-strings/",
+    "path": "DynamicProgramming/Leetcode/Medium/DeleteMinLCS"
+  },
+  {
+    "url": "https://leetcode.com/problems/edit-distance/",
+    "path": "DynamicProgramming/Leetcode/Medium/EditDistance"
+  },
+  {
+    "url": "https://leetcode.com/problems/house-robber/",
+    "path": "DynamicProgramming/Leetcode/Medium/HouseRobber"
+  },
+  {
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "path": "DynamicProgramming/Leetcode/Medium/HouseRobberII"
+  },
+  {
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "path": "DynamicProgramming/Leetcode/Medium/LCS"
+  },
+  {
+    "url": "https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/",
+    "path": "DynamicProgramming/Leetcode/Medium/MaxMovesInGrid"
+  },
+  {
+    "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "path": "DynamicProgramming/Leetcode/Medium/PartEqualSubsetSum"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1",
+    "path": "DynamicProgramming/Leetcode/Medium/PartWithGivenDiff"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1",
+    "path": "DynamicProgramming/Leetcode/Medium/SubsetSumEqualK"
+  },
+  {
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "path": "DynamicProgramming/Leetcode/Medium/UniquePaths"
+  },
+  {
+    "url": "https://leetcode.com/problems/unique-paths-ii/",
+    "path": "DynamicProgramming/Leetcode/Medium/UniquePathsII"
+  },
+  {
+    "url": "https://leetcode.com/problems/word-break/",
+    "path": "DynamicProgramming/Leetcode/Medium/WordBreak"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1",
+    "path": "Graph/GFG/Easy/AdjacencyList"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
+    "path": "Graph/GFG/Easy/AdjacencyListBFS"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
+    "path": "Graph/GFG/Easy/AdjacencyListDFS"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1",
+    "path": "Graph/GFG/Easy/DisjointSet"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/graph-and-vertices/1",
+    "path": "Graph/GFG/Easy/GraphsWithNVertex"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
+    "path": "Graph/GFG/Hard/AlienDictionary"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/chocolates-pickup/1",
+    "path": "Graph/GFG/Hard/ChocolatesPickup"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+    "path": "Graph/GFG/Medium/BellmanFord"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1",
+    "path": "Graph/GFG/Medium/DAGShortestPath"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "path": "Graph/GFG/Medium/DetectCycleBFS"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "path": "Graph/GFG/Medium/DetectCycleDFS"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+    "path": "Graph/GFG/Medium/Dijkstra"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1",
+    "path": "Graph/GFG/Medium/DijkstraPath"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+    "path": "Graph/GFG/Medium/DirectedCycleBFS"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+    "path": "Graph/GFG/Medium/DirectedCycleDFS"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1",
+    "path": "Graph/GFG/Medium/DistinctIslands"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+    "path": "Graph/GFG/Medium/FloydWarshall"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1",
+    "path": "Graph/GFG/Medium/Islands"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+    "path": "Graph/GFG/Medium/KahnAlgorithm"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
+    "path": "Graph/GFG/Medium/Kosaraju"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "path": "Graph/GFG/Medium/Kruskal"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1",
+    "path": "Graph/GFG/Medium/MinimumMultiplications"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/number-of-islands/0",
+    "path": "Graph/GFG/Medium/NumberOfIslands"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "path": "Graph/GFG/Medium/Prim'sAlgorithm"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/number-of-provinces/1",
+    "path": "Graph/GFG/Medium/Provinces"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+    "path": "Graph/GFG/Medium/TopologicalSort"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1",
+    "path": "Graph/GFG/Medium/UndirectedShortestPath"
+  },
+  {
+    "url": "https://leetcode.com/problems/flood-fill/description/",
+    "path": "Graph/Leetcode/Easy/FloodFill"
+  },
+  {
+    "url": "https://leetcode.com/problems/making-a-large-island/",
+    "path": "Graph/Leetcode/Hard/MakingALargeIsland"
+  },
+  {
+    "url": "https://leetcode.com/problems/word-ladder/",
+    "path": "Graph/Leetcode/Hard/WordLadderI"
+  },
+  {
+    "url": "https://leetcode.com/problems/01-matrix/",
+    "path": "Graph/Leetcode/Medium/01Matrix"
+  },
+  {
+    "url": "https://leetcode.com/problems/accounts-merge/",
+    "path": "Graph/Leetcode/Medium/AccountsMerge"
+  },
+  {
+    "url": "https://leetcode.com/problems/is-graph-bipartite/",
+    "path": "Graph/Leetcode/Medium/Bipartite"
+  },
+  {
+    "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "path": "Graph/Leetcode/Medium/CheapestFlightsKStops"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+    "path": "Graph/Leetcode/Medium/CityWithLeastNeighborInThreshold"
+  },
+  {
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "path": "Graph/Leetcode/Medium/CloneGraph"
+  },
+  {
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "path": "Graph/Leetcode/Medium/CourseSchedule"
+  },
+  {
+    "url": "https://leetcode.com/problems/course-schedule-ii/",
+    "path": "Graph/Leetcode/Medium/CourseSchedule2"
+  },
+  {
+    "url": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "path": "Graph/Leetcode/Medium/CriticalConnections"
+  },
+  {
+    "url": "https://leetcode.com/problems/all-paths-from-source-to-target/description/",
+    "path": "Graph/Leetcode/Medium/DAGAllPaths"
+  },
+  {
+    "url": "https://leetcode.com/problems/number-of-enclaves/",
+    "path": "Graph/Leetcode/Medium/Enclaves"
+  },
+  {
+    "url": "https://neetcode.io/problems/valid-tree",
+    "path": "Graph/Leetcode/Medium/GraphValidTree"
+  },
+  {
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "path": "Graph/Leetcode/Medium/Islands"
+  },
+  {
+    "url": "https://neetcode.io/problems/islands-and-treasure",
+    "path": "Graph/Leetcode/Medium/IslandsAndTreasures"
+  },
+  {
+    "url": "https://leetcode.com/problems/max-area-of-island/",
+    "path": "Graph/Leetcode/Medium/MaxArea"
+  },
+  {
+    "url": "https://leetcode.com/problems/path-with-minimum-effort/",
+    "path": "Graph/Leetcode/Medium/MinEffortPath"
+  },
+  {
+    "url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    "path": "Graph/Leetcode/Medium/MostStonesRemoved"
+  },
+  {
+    "url": "https://leetcode.com/problems/network-delay-time/",
+    "path": "Graph/Leetcode/Medium/NetworkDelayTime"
+  },
+  {
+    "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    "path": "Graph/Leetcode/Medium/NoOfOperationsToMakeNetworkConnected"
+  },
+  {
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "path": "Graph/Leetcode/Medium/PacificAtlanticWaterFlow"
+  },
+  {
+    "url": "https://leetcode.com/problems/number-of-provinces/",
+    "path": "Graph/Leetcode/Medium/Provinces"
+  },
+  {
+    "url": "https://leetcode.com/problems/rotting-oranges/description/",
+    "path": "Graph/Leetcode/Medium/RottenOranges"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-eventual-safe-states/",
+    "path": "Graph/Leetcode/Medium/SafeStates"
+  },
+  {
+    "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    "path": "Graph/Leetcode/Medium/ShortestPathInBinaryMatrix"
+  },
+  {
+    "url": "https://leetcode.com/problems/surrounded-regions/",
+    "path": "Graph/Leetcode/Medium/SurroundedRegions"
+  },
+  {
+    "url": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+    "path": "Graph/Leetcode/Medium/WaysToArriveAtDestination"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1",
+    "path": "Greedy/GFG/Easy/NMeetings"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+    "path": "Greedy/GFG/Medium/FractionalKnapsack"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1",
+    "path": "Greedy/GFG/Medium/MaxPlatform"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/shortest-job-first/1",
+    "path": "Greedy/GFG/Medium/SJF"
+  },
+  {
+    "url": "https://leetcode.com/problems/lemonade-change/",
+    "path": "Greedy/Leetcode/Easy/LemonadeChange"
+  },
+  {
+    "url": "https://leetcode.com/problems/candy/",
+    "path": "Greedy/Leetcode/Hard/Candy"
+  },
+  {
+    "url": "https://leetcode.com/problems/gas-station/",
+    "path": "Greedy/Leetcode/Medium/GasStation"
+  },
+  {
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "path": "Greedy/Leetcode/Medium/InsertInterval"
+  },
+  {
+    "url": "https://leetcode.com/problems/jump-game/",
+    "path": "Greedy/Leetcode/Medium/JumpGame"
+  },
+  {
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "path": "Greedy/Leetcode/Medium/JumpGame2"
+  },
+  {
+    "url": "https://leetcode.com/problems/maximum-distance-in-arrays/",
+    "path": "Greedy/Leetcode/Medium/MaximumDistanceInArrays"
+  },
+  {
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "path": "Greedy/Leetcode/Medium/MaximumSubarray"
+  },
+  {
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "path": "Greedy/Leetcode/Medium/MergeIntervals"
+  },
+  {
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "path": "Greedy/Leetcode/Medium/NonOverlapping"
+  },
+  {
+    "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "path": "Greedy/Leetcode/Medium/ValidParenthesis"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/does-array-represent-heap4345/1",
+    "path": "Heap/GFG/Easy/ArrayIsMaxHeap"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/implementation-of-priority-queue-using-binary-heap/1",
+    "path": "Heap/GFG/Easy/Implementation"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1",
+    "path": "Heap/GFG/Medium/KthSmallest"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1",
+    "path": "Heap/GFG/Medium/MergeKArrays"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/convert-min-heap-to-max-heap-1666385109/1",
+    "path": "Heap/GFG/Medium/MinToMaxHeap"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/replace-elements-by-its-rank-in-the-array/1",
+    "path": "Heap/GFG/Medium/ReplaceElementByRank"
+  },
+  {
+    "url": "https://leetcode.com/problems/last-stone-weight/",
+    "path": "Heap/Leetcode/Easy/LastStone"
+  },
+  {
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "path": "Heap/Leetcode/Hard/MergeKLists"
+  },
+  {
+    "url": "https://leetcode.com/problems/design-twitter/",
+    "path": "Heap/Leetcode/Medium/DesignTwitter"
+  },
+  {
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "path": "Heap/Leetcode/Medium/KClosestPoints"
+  },
+  {
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "path": "Heap/Leetcode/Medium/KthLargest"
+  },
+  {
+    "url": "https://leetcode.com/problems/task-scheduler/",
+    "path": "Heap/Leetcode/Medium/TaskScheduler"
+  },
+  {
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "path": "Heap/Leetcode/Medium/TopKFrequentElements"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1",
+    "path": "LinkedList/GFG/Easy/NodesInLoop"
+  },
+  {
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "path": "LinkedList/Leetcode/Easy/LinkedListCycle"
+  },
+  {
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
+    "path": "LinkedList/Leetcode/Easy/MergeTwoSortedLists"
+  },
+  {
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "path": "LinkedList/Leetcode/Easy/ReverseLinkedList"
+  },
+  {
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "path": "LinkedList/Leetcode/Medium/AddTwoNumbers"
+  },
+  {
+    "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "path": "LinkedList/Leetcode/Medium/CopyListWithRandomPointer"
+  },
+  {
+    "url": "https://leetcode.com/problems/reorder-list/",
+    "path": "LinkedList/Leetcode/Medium/ReorderList"
+  },
+  {
+    "url": "https://leetcode.com/problems/happy-number",
+    "path": "Maths&Geometry/Leetcode/Easy/HappyNumber"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/",
+    "path": "Maths&Geometry/Leetcode/Easy/PlusOne"
+  },
+  {
+    "url": "https://leetcode.com/problems/powx-n/",
+    "path": "Maths&Geometry/Leetcode/Medium/Pow(x,n)"
+  },
+  {
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "path": "Maths&Geometry/Leetcode/Medium/RotateImage"
+  },
+  {
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "path": "Maths&Geometry/Leetcode/Medium/SetMatrixZeros"
+  },
+  {
+    "url": "https://leetcode.com/problems/spiral-matrix/",
+    "path": "Maths&Geometry/Leetcode/Medium/SpiralMatrix"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1",
+    "path": "Recursion/GFG/Medium/BinaryStrings"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/1",
+    "path": "Recursion/GFG/Medium/BSTtoSortedList"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1",
+    "path": "Recursion/GFG/Medium/FlatteningALinkedList"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1",
+    "path": "Recursion/GFG/Medium/MColoring"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+    "path": "Recursion/GFG/Medium/RatInMaze"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/sort-a-stack/1",
+    "path": "Recursion/GFG/Medium/ReverseStack"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/sort-a-stack/1",
+    "path": "Recursion/GFG/Medium/SortStack"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1",
+    "path": "Recursion/GFG/Medium/TowerOfHanoi"
+  },
+  {
+    "url": "https://leetcode.com/problems/n-queens/",
+    "path": "Recursion/Leetcode/Hard/N_Queens"
+  },
+  {
+    "url": "https://leetcode.com/problems/sudoku-solver",
+    "path": "Recursion/Leetcode/Hard/SudokuSolver"
+  },
+  {
+    "url": "https://leetcode.com/problems/string-to-integer-atoi/description/",
+    "path": "Recursion/Leetcode/Medium/Atoi"
+  },
+  {
+    "url": "https://leetcode.com/problems/combination-sum/description/",
+    "path": "Recursion/Leetcode/Medium/CombinationSum"
+  },
+  {
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
+    "path": "Recursion/Leetcode/Medium/CombinationSum_II"
+  },
+  {
+    "url": "https://leetcode.com/problems/combination-sum-iii/",
+    "path": "Recursion/Leetcode/Medium/CombinationSum_III"
+  },
+  {
+    "url": "https://leetcode.com/problems/generate-parentheses/",
+    "path": "Recursion/Leetcode/Medium/GenerateParenthesis"
+  },
+  {
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/",
+    "path": "Recursion/Leetcode/Medium/LetterCombinationsOfPhone"
+  },
+  {
+    "url": "https://leetcode.com/problems/palindrome-partitioning/",
+    "path": "Recursion/Leetcode/Medium/PalindromePartition"
+  },
+  {
+    "url": "https://leetcode.com/problems/permutations/",
+    "path": "Recursion/Leetcode/Medium/Permutations"
+  },
+  {
+    "url": "https://leetcode.com/problems/subsets/description/",
+    "path": "Recursion/Leetcode/Medium/Subsets"
+  },
+  {
+    "url": "https://leetcode.com/problems/subsets-ii/",
+    "path": "Recursion/Leetcode/Medium/Subsets_II"
+  },
+  {
+    "url": "https://leetcode.com/problems/word-search/description/",
+    "path": "Recursion/Leetcode/Medium/WordSearch"
+  },
+  {
+    "url": "https://www.naukri.com/code360/problems/next-smaller-element_1112581",
+    "path": "Stack/CodingNinjas/Medium/NextSmallerElement"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1",
+    "path": "Stack/GFG/Medium/InfixtoPostfix"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/postfix-to-infix-conversion/1",
+    "path": "Stack/GFG/Medium/PostfixtoInfix"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1",
+    "path": "Stack/GFG/Medium/PostfixtoPrefix"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1",
+    "path": "Stack/GFG/Medium/PrefixtoInfix"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1",
+    "path": "Stack/GFG/Medium/PrefixtoPostfix"
+  },
+  {
+    "url": "https://leetcode.com/problems/next-greater-element-i/",
+    "path": "Stack/Leetcode/Easy/NextGreaterElement"
+  },
+  {
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "path": "Stack/Leetcode/Easy/ValidParenthesis"
+  },
+  {
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "path": "Stack/Leetcode/Hard/LargestRectangleInHistogram"
+  },
+  {
+    "url": "https://leetcode.com/problems/maximal-rectangle/",
+    "path": "Stack/Leetcode/Hard/MaximalRectangle"
+  },
+  {
+    "url": "https://leetcode.com/problems/sliding-window-maximum/",
+    "path": "Stack/Leetcode/Hard/SlidingWindowMaximum"
+  },
+  {
+    "url": "https://leetcode.com/problems/trapping-rain-water/",
+    "path": "Stack/Leetcode/Hard/TrappingRainwater"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/the-celebrity-problem/1",
+    "path": "Stack/Leetcode/Medium/CelebrityProblem"
+  },
+  {
+    "url": "https://leetcode.com/problems/daily-temperatures/description/",
+    "path": "Stack/Leetcode/Medium/DailyTemperatures"
+  },
+  {
+    "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "path": "Stack/Leetcode/Medium/EvaluteReversePolishNotation"
+  },
+  {
+    "url": "https://leetcode.com/problems/car-fleet/",
+    "path": "Stack/Leetcode/Medium/FleetCount"
+  },
+  {
+    "url": "https://leetcode.com/problems/lfu-cache/",
+    "path": "Stack/Leetcode/Medium/LFUCache"
+  },
+  {
+    "url": "https://leetcode.com/problems/lru-cache/",
+    "path": "Stack/Leetcode/Medium/LRUCache"
+  },
+  {
+    "url": "https://leetcode.com/problems/min-stack/",
+    "path": "Stack/Leetcode/Medium/MinStack"
+  },
+  {
+    "url": "https://leetcode.com/problems/next-greater-element-ii/",
+    "path": "Stack/Leetcode/Medium/NextGreaterElementII"
+  },
+  {
+    "url": "https://leetcode.com/problems/online-stock-span/",
+    "path": "Stack/Leetcode/Medium/OnlineStockSpan"
+  },
+  {
+    "url": "https://leetcode.com/problems/remove-k-digits/",
+    "path": "Stack/Leetcode/Medium/RemoveKDigits"
+  },
+  {
+    "url": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+    "path": "Stack/Leetcode/Medium/SumofSubarrayMinimums"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/encode-and-decode-strings/1",
+    "path": "String/GFG/Medium/EncodeandDecodeStrings"
+  },
+  {
+    "url": "https://www.naukri.com/code360/problems/complete-string_2687860",
+    "path": "Trie/CodingNinjas/Hard/CompleteString"
+  },
+  {
+    "url": "https://www.naukri.com/code360/problems/count-distinct-substrings_985292",
+    "path": "Trie/CodingNinjas/Moderate/CountDistinctSubstrings"
+  },
+  {
+    "url": "https://www.naukri.com/code360/problems/implement-trie_1387095",
+    "path": "Trie/CodingNinjas/Moderate/ImplementTrie2"
+  },
+  {
+    "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+    "path": "Trie/Leetcode/Medium/AddAndSearchWord"
+  },
+  {
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "path": "Trie/Leetcode/Medium/ImplementTrie"
+  },
+  {
+    "url": "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/",
+    "path": "Trie/Leetcode/Medium/LongestCommonPrefix"
+  },
+  {
+    "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+    "path": "Trie/Leetcode/Medium/MaximumXOR"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1",
+    "path": "TwoPointers&SlidingWindow/GFG/Medium/LongestKSubstr"
+  },
+  {
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Easy/BestTimeToBuySellStocks"
+  },
+  {
+    "url": "https://leetcode.com/problems/valid-palindrome",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Easy/ValidPalindrome"
+  },
+  {
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Hard/MinimumWindowSubstring"
+  },
+  {
+    "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Hard/SubarrayswithKDifferentIntegers"
+  },
+  {
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Medium/ContainerWithMostWater"
+  },
+  {
+    "url": "https://leetcode.com/problems/fruit-into-baskets/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Medium/FruitIntoBaskets"
+  },
+  {
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Medium/LongestRepCharReplacement"
+  },
+  {
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Medium/LongestSubstrWithoutRepChar"
+  },
+  {
+    "url": "https://leetcode.com/problems/permutation-in-string/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Medium/PermutationInString"
+  },
+  {
+    "url": "https://leetcode.com/problems/3sum/description/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Medium/ThreeSum"
+  },
+  {
+    "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+    "path": "TwoPointers&SlidingWindow/Leetcode/Medium/TwoSumII"
+  }
+]
