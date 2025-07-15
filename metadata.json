@@ -368,6 +368,10 @@
     "path": "DynamicProgramming/Leetcode/Easy/MinCostClimbingStairs"
   },
   {
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "path": "DynamicProgramming/Leetcode/Hard/BestTimetoBuyandSellStockIII"
+  },
+  {
     "url": "https://leetcode.com/problems/distinct-subsequences/",
     "path": "DynamicProgramming/Leetcode/Hard/DistinctSubsequence"
   },
