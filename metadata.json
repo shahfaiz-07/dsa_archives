@@ -396,6 +396,10 @@
     "path": "DynamicProgramming/Leetcode/Medium/BestTimetoBuyandSellStockII"
   },
   {
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+    "path": "DynamicProgramming/Leetcode/Medium/BestTimetoBuyandSellStockwithTransactionFee"
+  },
+  {
     "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
     "path": "DynamicProgramming/Leetcode/Medium/BuySellStockwithCooldown"
   },
