@@ -844,6 +844,10 @@
     "path": "Maths&Geometry/Leetcode/Medium/SpiralMatrix"
   },
   {
+    "url": "https://www.geeksforgeeks.org/problems/josephus-problem/1",
+    "path": "Recursion/GFG/Easy/JosephusProblem"
+  },
+  {
     "url": "https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1",
     "path": "Recursion/GFG/Medium/BinaryStrings"
   },
