@@ -820,6 +820,10 @@
     "path": "LinkedList/Leetcode/Medium/ReorderList"
   },
   {
+    "url": "https://leetcode.com/problems/add-digits/",
+    "path": "Maths&Geometry/Leetcode/Easy/AddDigits"
+  },
+  {
     "url": "https://leetcode.com/problems/happy-number",
     "path": "Maths&Geometry/Leetcode/Easy/HappyNumber"
   },
