@@ -844,6 +844,10 @@
     "path": "Maths&Geometry/Leetcode/Hard/MaxPointsonaLine"
   },
   {
+    "url": "https://leetcode.com/problems/bulb-switcher/",
+    "path": "Maths&Geometry/Leetcode/Medium/BulbSwitcher"
+  },
+  {
     "url": "https://leetcode.com/problems/powx-n/",
     "path": "Maths&Geometry/Leetcode/Medium/Pow(x,n)"
   },
