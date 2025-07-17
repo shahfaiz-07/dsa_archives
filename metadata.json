@@ -836,6 +836,10 @@
     "path": "Maths&Geometry/Leetcode/Easy/HappyNumber"
   },
   {
+    "url": "https://leetcode.com/problems/minimum-time-visiting-all-points/",
+    "path": "Maths&Geometry/Leetcode/Easy/MinimumTimeVisitingAllPoints"
+  },
+  {
     "url": "https://leetcode.com/problems/plus-one/",
     "path": "Maths&Geometry/Leetcode/Easy/PlusOne"
   },
