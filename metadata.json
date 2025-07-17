@@ -868,6 +868,10 @@
     "path": "Maths&Geometry/Leetcode/Medium/BulbSwitcher"
   },
   {
+    "url": "https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/",
+    "path": "Maths&Geometry/Leetcode/Medium/DetermineifaCellIsReachableataGivenTime"
+  },
+  {
     "url": "https://leetcode.com/problems/new-21-game/",
     "path": "Maths&Geometry/Leetcode/Medium/New21Game"
   },
