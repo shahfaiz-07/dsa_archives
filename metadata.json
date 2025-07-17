@@ -828,6 +828,10 @@
     "path": "Maths&Geometry/Leetcode/Easy/CheckIfItIsaStraightLine"
   },
   {
+    "url": "https://leetcode.com/problems/excel-sheet-column-title/",
+    "path": "Maths&Geometry/Leetcode/Easy/ExcelSheetColumnTitle"
+  },
+  {
     "url": "https://leetcode.com/problems/happy-number",
     "path": "Maths&Geometry/Leetcode/Easy/HappyNumber"
   },
