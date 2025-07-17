@@ -860,6 +860,10 @@
     "path": "Maths&Geometry/Leetcode/Hard/NumberofWaystoReorderArraytoGetSameBST"
   },
   {
+    "url": "https://leetcode.com/problems/poor-pigs/",
+    "path": "Maths&Geometry/Leetcode/Hard/PoorPigs"
+  },
+  {
     "url": "https://leetcode.com/problems/bulb-switcher/",
     "path": "Maths&Geometry/Leetcode/Medium/BulbSwitcher"
   },
