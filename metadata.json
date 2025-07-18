@@ -252,6 +252,10 @@
     "path": "BitManipulation/GFG/Easy/BitManipulation"
   },
   {
+    "url": "https://www.geeksforgeeks.org/problems/set-bits0143/1",
+    "path": "BitManipulation/GFG/Easy/CountSetBits"
+  },
+  {
     "url": "https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1",
     "path": "BitManipulation/GFG/Easy/KthBitIsSet"
   },
