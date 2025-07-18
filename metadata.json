@@ -116,6 +116,10 @@
     "path": "BinarySearch/Leetcode/Easy/KthMissingNumber"
   },
   {
+    "url": "https://leetcode.com/problems/sqrtx/",
+    "path": "BinarySearch/Leetcode/Easy/Sqrt"
+  },
+  {
     "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
     "path": "BinarySearch/Leetcode/Hard/MedianOfTwoSortedArrays"
   },
