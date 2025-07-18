@@ -36,6 +36,10 @@
     "path": "Arrays/Leetcode/Easy/MoveZerosToEnd"
   },
   {
+    "url": "https://leetcode.com/problems/pascals-triangle/",
+    "path": "Arrays/Leetcode/Easy/PascalTriangle"
+  },
+  {
     "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
     "path": "Arrays/Leetcode/Easy/RemoveDuplicatesfromSortedArray"
   },
